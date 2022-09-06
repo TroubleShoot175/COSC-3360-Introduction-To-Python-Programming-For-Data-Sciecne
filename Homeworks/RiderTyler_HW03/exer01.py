@@ -1,4 +1,4 @@
-''' Homework 02 - Exercise 01 '''
+''' Homework 03 - Exercise 01 '''
 
 x = int(input("Please enter a positive integer: "))
 
