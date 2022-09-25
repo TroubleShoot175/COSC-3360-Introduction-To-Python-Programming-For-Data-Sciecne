@@ -1,12 +1,12 @@
 ''' Homework 04 - Exercise 04 '''
+resultList = []
+list = []
+tempStr = ""
 
 def str2Words(str):
-    resultList = []
-    list = []
-    tempStr = ""
     list[:0] = str
     list[-1] = " "
-
+    
     for letter in list:
         if letter != " " :
             tempStr = tempStr + letter
